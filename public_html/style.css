@@ -1,0 +1,302 @@
+{
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: underline;
+	color: #ABFF1A;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	font-size: 12pt;
+	line-height: 1.75em;
+	background: #000000;
+	color: #C2C1C4;
+}
+
+body,input {
+	font-family: Cominc Sans SF, sans-serif;
+}
+
+br.clear {
+	clear: both;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4 
+
+h2 {
+	font-size: 1.5em;
+}
+
+h2,h3,h4 {
+	margin-bottom: 1em;
+	font-family: "Ubuntu Condensed", sans-serif;
+	color: #FFF;
+}
+
+h3 {
+	font-size: 1.25em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+img.left {
+	float: left;
+	margin: 18px 20px 20px 0;
+}
+
+img.top {
+	margin: 8px 0 20px 0;
+}
+
+label.login {
+	display: block;
+	margin: 0 0 6px 0;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+ul {
+	margin-bottom: 1.5em;
+}
+
+ul h4 {
+	margin-bottom: 0.35em;
+}
+
+.form {
+	margin: 0 0 24px 0;
+}
+
+.inputBox, .inputTextArea {
+	padding: 6px;
+	width: 95%;
+}
+
+.inputButton {
+	padding: 6px;
+	float: right;
+	background: #ABFF1A;
+	color: #0B0712;
+	border: none;
+	text-transform: lowercase;
+	font-size: 1.25em;	
+	font-family: "Ubuntu Condensed", sans-serif;
+}
+
+#banner {
+	position: relative;
+bottom: 75px;
+	padding: 0;
+	height: 276px;
+	width: 500px;
+	margin: 0 0 0 0;
+	background: #2D1D49;
+}
+
+#box1 {
+	margin: 0 0 0px 0;
+	overflow: hidden;
+}
+
+#box2 {
+	margin: 0 0 0px 0px;
+	overflow: hidden;
+}
+
+#box3 {
+	overflow: hidden;
+}
+
+#content {
+	width: 1000px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+
+#copyright {
+	margin: 0 0 10px 0;
+	padding: 0px 0 0px 0;
+	text-align: center;
+        position: relative;
+        width: 100%;
+        clear: left;
+}
+
+#copyright a {
+	color: #C2C1C4;
+}
+
+#footer {
+	position: relative;
+	padding: 5px;
+	margin: 0px 0px 10px 0px;
+	width: 1000px;
+	background: #ABFF1A;
+	color: #000000;
+        text-align: center;
+        float:left;
+}
+
+#footer a {
+	color: #000000;
+        text-align: center;
+}
+
+#footer h2, #footer h3, #footer h4 {
+	color: #FFF;
+        text-align: center;
+}
+
+#footer ul {
+	padding-left: 1.25em;
+}
+
+#footerContent {
+	width: 662px;
+	margin: 0 0 0 270px;
+}
+
+#footerSidebar {
+	width: 250px;
+	float: left;
+}
+
+#header {
+	position: relative;
+	padding: 24px;
+	height: 134px;
+	width: 1000px;
+}
+
+#logo {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 25px;
+	line-height: 50px;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+#logo a span {
+	color: #ABFF1A;
+}
+
+#logo h1 {
+	font-size: 3.5em;
+	font-family: "Ubuntu Condensed", sans-serif;
+}
+
+#main {
+	position: relative;
+        left: 20px;
+        top: -75px;
+        display: inline-block;
+	padding: 0 0 0 0px;
+        width: 725px;
+	margin: 0 0 0 0px;
+}
+
+#main .sectionList {
+	list-style: none;
+	padding-left: 0;
+        display: inline-block;
+}
+
+#main .sectionList li {
+	clear: both;
+        padding: 16px 0 16px 0;
+}
+
+#main ul {
+	padding-left: 1.25em;
+}
+
+#nav {
+	position: absolute;
+	right: 0px;
+	height: 60px;
+	line-height: 30px;
+	top: 25px;
+	font-family: "Ubuntu Condensed", sans-serif;
+	background: #ABFF1A;
+	color: #0B0712;
+}
+
+#nav a {
+	text-decoration: none;
+	text-transform: lowercase;
+	font-size: 1.25em;
+	color: #0B0712;
+}
+
+#nav ul {
+	list-style: none;
+	padding: 0 12px 0 12px;
+}
+
+#nav ul li {
+	display: inline;
+	padding: 0 8px 0 8px;
+}
+
+#outer {
+	position: relative;
+	width: 1000px;
+	margin: 24px auto 0 auto;
+}
+
+#search input.button {
+	margin-left: 1em;
+	border: 0;
+	color: #FFF;
+	background: #ABFF1A;
+	padding: 4px;
+	font-family: "Ubuntu Condensed", sans-serif;
+}
+
+#search input.text {
+	border: solid 1px #4F4C54;
+	padding: 4px;
+}
+
+#sidebar {
+	position: relative;
+        bottom: 75px;
+        width: 275px;
+	float: left;
+        display: inline-block;
+	padding: 0;
+	
+}
+
+#sidebar h3{
+	height: 40px;
+	line-height: 40px;
+	font-family: "Ubuntu Condensed", sans-serif;
+	background: #ABFF1A;
+	color: #0B0712;
+	padding: 0 5px;
+}
+
+.widget {
+	margin: 0 0 15px 0;
+}
